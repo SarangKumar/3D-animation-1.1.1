@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-image:url("abstract.jpg");
+    background-size:cover; 
+    background-repeat:repeat;
+    background-color: antiquewhite;
+    background-position: 50px;
+}
+model-viewer{
+    width:500px;
+}
+#Wizard{
+    height:500px;
+    width:auto;
+    margin:0px 0px 0px 300px;
+}
+
+#Astronaut{
+    height: 500px;
+    width:auto;
+    margin-left:500px;
+}
