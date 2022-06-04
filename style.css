@@ -1,26 +1,47 @@
 *{
     margin:0;
     padding:0;
-
+    height:100%;
 }
 body{
-    background-image:url("abstract.jpg");
+    background-image:url("pexels.jpg");
     background-size:cover; 
     background-repeat:repeat;
     background-color: antiquewhite;
-    background-position: 50px;
 }
 model-viewer{
     width:500px;
 }
+#Astronaut{
+    position: absolute;
+    top:10%;
+    left:15%;
+    /* background-color: aqua; */
+    height: 300px;
+    width:150px;
+    margin:20px 100px;
+    
+}
 #Wizard{
-    height:500px;
-    width:auto;
-    margin:0px 0px 0px 300px;
+    position: absolute;
+    top:10%;
+    left:60%;
+    /* background-color: blueviolet; */
+    height:300px;
+    width:150px;
+    /* margin:20px 10px; */
 }
 
-#Astronaut{
-    height: 500px;
-    width:auto;
-    margin-left:500px;
+.conv{
+    position: absolute;
+    top:calc(230px*2);
+    color:#fff;
+    background-color: rgba(114, 70, 245, 0.636);
+    min-height:50px;
+    max-height: 180px;
+    width:90%;
+    overflow: scroll;
+    padding:20px;
+    margin:20px;
+    line-height: 1.5em;
 }
